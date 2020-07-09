@@ -168,7 +168,7 @@ private void drawStick() {
 
 > 通过调节高斯模糊的半径可以控制得到的边缘的强度。
 
-**高斯反差保留 = 原图 - 高斯模糊图 **  
+**高斯反差保留 = 原图 - 高斯模糊图**    
 
 **锐化的图像 = 原图 + 高斯反差保留图**  
 
@@ -323,4 +323,5 @@ public int onDrawFrame(int textureId) {
 
 * 开源美颜相机工程：[MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)  
 
-* 美白着色器代码：[[AGLFramework](https://github.com/smzhldr/AGLFramework)] 项目中的 [light_f.glsl](https://github.com/smzhldr/AGLFramework/blob/master/aglframework/src/main/res/raw/light_f.glsl)
+* 美白着色器代码：[AGLFramework](https://github.com/smzhldr/AGLFramework) 项目中的  [light_f.glsl](https://github.com/smzhldr/AGLFramework/blob/master/aglframework/src/main/res/raw/light_f.glsl)
+
